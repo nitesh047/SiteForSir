@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+ 
+header
+{
+    color: #eeeeee;
+    background-image: url("Images/index_image.jpg");
+}
+
+#header_style
+{
+    background-color: rgba(2, 2, 3, 0.2);
+    padding: 13vmin 0px;
+    font-size: 25px;
+    line-height: normal;
+}
+
+#header_style h1
+{
+    font-size: 60px;
+}
+
+.navigation
+{
+    top: 0;
+    position: sticky;
+    display: flex;
+    background-color: #224;
+    z-index: 1;
+}
+
+.nav_elements
+{
+    padding: 1% 0 1% 4vw;
+    font-size: medium;
+}
+
+a
+{
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+#profile
+{
+    padding: 25vmin 0vmin 3vmin;
+}
+
+#profile img
+{
+    height: 40vmin;
+    border-radius: 30vmin;
+}
+
+.profile_text
+{
+    color: #446;
+    padding: 5vmin 15vmin 5vmin;
+    font-size: large;
+    background-color: #fff;
+    margin: 6%;
+    border: 1px solid #446;
+    box-shadow: 5px 5px 3px #446;
+    border-radius: 10px;
+}
+
+.carousel-editing
+{
+    margin: 100px;
+}
+
+#researches
+{
+    padding: 5vmin 15vmin 5vmin;
+    font-size: large;
+    background-color: #fff;
+    margin: 6%;
+    border: 1px solid #446;
+    box-shadow: 5px 5px 3px #446;
+    border-radius: 10px;
+}
+
+#researches .research_element a
+{
+    color: #446;
+    font-weight: 900;
+}
+
+.research_element
+{
+    text-align: left;
+    margin-bottom: 17px;
+}
